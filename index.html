@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Level 3</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form name="dados">
+    <h1 class="titulo">Adicionar tarefa</h1>
+    <div id="adicionarTarefa">
+        <input type="text" name="tarefa" id="tarefa" placeholder="Digite aqui" required>
+    </div>
+    <div>
+        <button type="submit" id="enviaTarefa">Adicionar</button>
+    </div>
+
+    <div id="listaTarefa">
+        <h1 class="titulo">Lista de Tarefas</h1>
+        <div>
+            <table id="minhaTabela">
+                <thead id="cabecalhoTabela">
+                    <tbody id="corpoTabela"></tbody>
+                </thead>
+            </table>
+        </div>
+    </div>
+    </form>     
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
